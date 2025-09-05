@@ -1,0 +1,166 @@
+# 操作系统相关文件
+.DS_Store                  # macOS
+Thumbs.db                  # Windows
+ehthumbs.db                # Windows
+Desktop.ini                # Windows
+*.swp                      # 临时文件
+*.swo                      # 临时文件
+
+# 编辑器/IDE相关文件
+.idea/                     # IntelliJ IDEA
+.vscode/                   # VS Code
+*.suo                      # Visual Studio
+*.ntvs*                    # Visual Studio
+*.njsproj                  # Visual Studio
+*.sln                      # Visual Studio
+*.swp                      # Vim
+*.swo                      # Vim
+*.log                      # 日志文件
+*.bak                      # 备份文件
+*~                         # 临时文件
+
+# 压缩文件
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.rar
+*.7z
+
+# 编程语言相关
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+.env
+.env.local
+.venv
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+bin/
+.gradle/
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+coverage/
+dist/
+build/
+.vercel
+.next
+out
+
+# PHP
+vendor/
+composer.lock
+composer.phar
+*.log
+*.cache
+.php_cs.cache
+.phpunit.result.cache
+
+# Ruby
+*.gem
+Gemfile.lock
+vendor/
+
+# Go
+vendor/
+*.exe
+*.exe~
+__debug_bin
+go.sum
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+build/
+bin/
+
+# Rust
+target/
+Cargo.lock
+
+# Swift
+.build/
+DerivedData/
+*.xcworkspace/
+*.xcuserstate
+*.swiftmodule
+*.symbols
+
+# 数据库相关
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.dump
+
+# 环境变量和敏感信息
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# 缓存文件
+.cache/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+.eslintcache
+.stylelintcache
+
+# 其他常见忽略项
+tmp/
+temp/
+logs/
+*.log
+*.pid
+*.seed
+.DS_Store
+coverage/
+.nyc_output/
+
+results/
+install/
+*.png

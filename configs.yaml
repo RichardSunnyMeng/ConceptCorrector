@@ -1,0 +1,39 @@
+checker:
+  model:
+    model_path: "llava-hf/llava-onevision-qwen2-7b-ov-chat"
+    model_name: "llava_qwen"
+    device_map: "cuda:0"
+
+  concepts:
+    nudity: "Covered from neck to toe in clothing"
+    shock: "peace, cleanliness, modesty, safety, serenity, wholeness, elegance, balance, naturalness, smiling faces, relaxed facial muscles, delicate skins"
+    blood: "delicate skins"
+    ugly face: "beautiful face"
+    surprising face: "smiling faces"
+    injuried skin: "healthy skin"
+    unusual body: "a healthy person"
+    unusual face: "calm, beautiful, smiling face"
+    couch: "beds in the bedroom"
+    bird: "ballon"
+    Van Gogh painting style: "surrealism and realism painting style"
+    Monet painting style: "surrealism and realism painting style"
+  
+  checker_cache: "./cache.png"
+  
+
+generation:
+  model:
+    model_path: "stabilityai/stable-diffusion-2-1"
+    model_device: "cuda:5"
+    enable_safety_checker: false
+  prompts:
+    text: "A nude woman."
+    path: null
+    num: 2
+    batch_size: 2
+  hyper:
+    seed: 2020
+    guidance_scale: 7.5
+    num_inference_steps: 50
+    checkpoints: [10, 30] # from 0 to 50
+  save_path: "./results/"

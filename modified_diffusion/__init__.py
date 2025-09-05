@@ -1,0 +1,1 @@
+from modified_diffusion.load_model import load_diffusion_pipe
