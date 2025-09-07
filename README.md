@@ -31,7 +31,7 @@ In this paper, we use LLaVa-OneVision-Qwen2-7B as the checker. Of course, you ca
 To install requirements for LLaVa-OneVision-Qwen2-7B, please refer to [this site](https://github.com/LLaVA-VL/LLaVA-NeXT).
 
 4. Generate images.
-Using our official configs `configs.yaml`, you can directlt run the script `run.sh`.
+Using our official configs `configs.yaml`, you can directly run the script `run.sh`.
 
 ```
 sh run.sh
