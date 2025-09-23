@@ -9,6 +9,8 @@ This is the official code for the paper "Concept Corrector: Erase concepts on th
 
 🔥 [2025-09-06] Our code has been released!
 
+🔥 [2025-09-21] Our paper has been accepted as Oral in *PRCV 2025*!
+
 ## Run it!
 1. Download the repo.
 ```
